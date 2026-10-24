@@ -1,64 +1,80 @@
-"""Convert an image into ASCII art for the profile card.
+"""Convert a portrait into dense ASCII art for the profile card.
 
-Usage: python scripts/make_ascii.py <image> [--cols 44] [--rows 23]
-                                    [--box left,top,right,bottom] [--mode tone|subject]
+Usage: python scripts/make_ascii.py <image> [--cols 56] [--rows 29]
+                                    [--box left,top,right,bottom]
 
-Modes:
-  tone     brightness maps to character density (suits photos).
-  subject  the background colour, sampled from the top-left corner, is blank
-           (suits flat illustrations).
+The backdrop is estimated from the image edges and left blank; everything
+inside the silhouette is drawn with the full 70-character ramp, so the
+figure reads as a solid, textured shape.
 
-Output goes to assets/ascii.txt (dark card) and assets/ascii-light.txt (light card).
+Output goes to assets/ascii.txt (dark card, bright areas dense) and
+assets/ascii-light.txt (light card, dark areas dense).
 """
 import argparse
-import math
+import bisect
 import os
 
-from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 
-GAMMA = float(os.environ.get("ASCII_GAMMA", "0.7"))
-GAMMA_LIGHT = float(os.environ.get("ASCII_GAMMA_LIGHT", "1.8"))
-RAMP = " .:-=+*#%@"
+# Densest first.
+RAMP = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'."
+FLOOR = 0.3  # lowest density used inside the silhouette
 
 
-def convert(path, cols, rows, box=None, mode="tone", invert=False):
-    img = Image.open(path).convert("RGB")
+def luminance_grid(path, cols, rows, box):
+    img = Image.open(path).convert("L")
     if box:
         img = img.crop(box)
-    if mode == "tone":
-        gray = ImageOps.autocontrast(ImageOps.grayscale(img), cutoff=1)
-        img = gray.filter(ImageFilter.UnsharpMask(radius=4, percent=120)).convert("RGB")
-    else:
-        img = ImageEnhance.Contrast(img).enhance(1.4)
+    img = ImageOps.autocontrast(img, cutoff=1)
+    img = img.filter(ImageFilter.UnsharpMask(radius=4, percent=120))
     img = img.resize((cols, rows), Image.LANCZOS)
-    bg = img.getpixel((0, 0))
-    # Smooth backdrop estimate: interpolate the left and right edge brightness
-    # across each row (rows near the bottom reuse an upper row, where the
-    # shoulders would otherwise reach the edge).
-    edge = lambda y, xs: sum(img.getpixel((x, y))[0] for x in xs) / (len(xs) * 255)
-    left = [edge(y, (0, 1)) for y in range(rows)]
-    right = [edge(y, (cols - 2, cols - 1)) for y in range(rows)]
-    last = int(rows * 0.7)
-    out = []
+    return [[img.getpixel((x, y)) / 255 for x in range(cols)] for y in range(rows)]
+
+
+def silhouette(grid, cols, rows):
+    """Boolean mask of the subject: cells that differ from a smooth backdrop."""
+    left = [(row[0] + row[1]) / 2 for row in grid]
+    right = [(row[-1] + row[-2]) / 2 for row in grid]
+    last = int(rows * 0.65)  # lower rows reuse an upper row (shoulders reach the edge)
+    mask = [[False] * cols for _ in range(rows)]
     for y in range(rows):
-        line = ""
+        yy = min(y, last)
         for x in range(cols):
-            px = img.getpixel((x, y))
-            if mode == "tone":
-                nx, ny = (x + 0.5) / cols * 2 - 1, (y + 0.5) / rows * 2 - 1
-                fade = max(0.0, min(1.0, (1.1 - math.hypot(nx / 0.8, ny / 1.0)) / 0.3))
-                v = px[0] / 255
-                if invert:
-                    level = (1 - v) ** GAMMA_LIGHT * fade * (len(RAMP) - 1)
-                else:
-                    yy = min(y, last)
-                    base = left[yy] + (right[yy] - left[yy]) * x / (cols - 1)
-                    subject = max(0.0, min(1.0, (abs(v - base) - 0.06) / 0.12))
-                    level = subject * (0.2 + 0.8 * v ** GAMMA) * fade * (len(RAMP) - 1)
-            else:
-                dist = math.dist(px, bg) / math.dist((0, 0, 0), (255, 255, 255))
-                level = dist * 2.2 * (len(RAMP) - 1)
-            line += RAMP[min(int(level), len(RAMP) - 1)]
+            base = left[yy] + (right[yy] - left[yy]) * x / (cols - 1)
+            mask[y][x] = abs(grid[y][x] - base) > 0.07
+    # Drop isolated specks, then fill each row between its outermost cells.
+    kept = [[False] * cols for _ in range(rows)]
+    for y in range(rows):
+        for x in range(cols):
+            if mask[y][x]:
+                n = sum(
+                    mask[j][i]
+                    for j in range(max(0, y - 1), min(rows, y + 2))
+                    for i in range(max(0, x - 1), min(cols, x + 2))
+                ) - 1
+                kept[y][x] = n >= 3
+    for y in range(rows):
+        xs = [x for x in range(cols) if kept[y][x]]
+        if xs:
+            for x in range(xs[0], xs[-1] + 1):
+                kept[y][x] = True
+    return kept
+
+
+def render(grid, mask, invert):
+    inside = sorted(v for row, mrow in zip(grid, mask) for v, m in zip(row, mrow) if m)
+    out = []
+    for row, mrow in zip(grid, mask):
+        line = ""
+        for v, m in zip(row, mrow):
+            if not m:
+                line += " "
+                continue
+            t = bisect.bisect_left(inside, v) / len(inside)  # rank = equalized tone
+            if invert:
+                t = 1 - t
+            level = FLOOR + (1 - FLOOR) * t
+            line += RAMP[min(int((1 - level) * len(RAMP)), len(RAMP) - 1)]
         out.append(line.rstrip())
     return "\n".join(out)
 
@@ -66,15 +82,15 @@ def convert(path, cols, rows, box=None, mode="tone", invert=False):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("image")
-    ap.add_argument("--cols", type=int, default=44)
-    ap.add_argument("--rows", type=int, default=23)
+    ap.add_argument("--cols", type=int, default=56)
+    ap.add_argument("--rows", type=int, default=29)
     ap.add_argument("--box", type=lambda s: tuple(int(v) for v in s.split(",")))
-    ap.add_argument("--mode", choices=["tone", "subject"], default="tone")
     a = ap.parse_args()
+    grid = luminance_grid(a.image, a.cols, a.rows, a.box)
+    mask = silhouette(grid, a.cols, a.rows)
     os.makedirs("assets", exist_ok=True)
-    # Dark card: bright areas are dense. Light card: dark areas are dense.
-    for name, invert in (("ascii.txt", False), ("ascii-light.txt", a.mode == "tone")):
-        art = convert(a.image, a.cols, a.rows, a.box, a.mode, invert)
+    for name, invert in (("ascii.txt", False), ("ascii-light.txt", True)):
+        art = render(grid, mask, invert)
         with open(os.path.join("assets", name), "w", encoding="utf-8", newline="\n") as f:
             f.write(art + "\n")
     print(art)

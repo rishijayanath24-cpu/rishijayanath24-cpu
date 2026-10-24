@@ -1,48 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="468.0" viewBox="0 0 985 468.0" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
-<rect width="985" height="468.0" rx="12" fill="#161b22"/>
-<text x="20" y="58.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="203" lengthAdjust="spacing">                      :::      .:</text>
-<text x="20" y="70.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="264" lengthAdjust="spacing">                     ::::-::::::::-= ---  .</text>
-<text x="20" y="82.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="264" lengthAdjust="spacing">               ..::-::::::::-:-:-:::-::.:--</text>
-<text x="20" y="94.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="283" lengthAdjust="spacing">             ....::.:---:::-:::--:::::::::.:-=</text>
-<text x="20" y="106.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="314" lengthAdjust="spacing">            ..:::::::-::--=-:::-::::::::::::..::::.</text>
-<text x="20" y="118.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="320" lengthAdjust="spacing">           .::::--=--::::--:-:::::-:::::::::::..::.:</text>
-<text x="20" y="130.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="320" lengthAdjust="spacing">          ::::--=----:---------:::--::::::::::::::.:</text>
-<text x="20" y="142.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="338" lengthAdjust="spacing">         .:::--:--:-=----::--::::::::::::.:::::::::.:..</text>
-<text x="20" y="154.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="344" lengthAdjust="spacing">        .::::-==-::------:::--:::::::::::--:-:.::-:..: .</text>
-<text x="20" y="166.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="344" lengthAdjust="spacing">        :::-:----::==----:::--::---=-::---::::::::::::::</text>
-<text x="20" y="178.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="344" lengthAdjust="spacing">       ...:-----=---====---:---==++++=-:::::::::::::::::</text>
-<text x="20" y="190.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="338" lengthAdjust="spacing">        :::--=--=---==--=--=====+++++=--:::--:::::::::-</text>
-<text x="20" y="202.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="332" lengthAdjust="spacing">        -.::===-:======+=:--=+++****++==-:::--:-:::::-</text>
-<text x="20" y="214.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="332" lengthAdjust="spacing">        .::-===-== -**:+-+**+++:. .-**++=---:::-:::-:-</text>
-<text x="20" y="226.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="326" lengthAdjust="spacing">        .:------*.*+*++===+*-.:-=+++==-------:::::-:-</text>
-<text x="20" y="238.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="332" lengthAdjust="spacing">           +---: =  :+*+++++*  **+=====+-===---::::-:.</text>
-<text x="20" y="250.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="314" lengthAdjust="spacing">            =--: %=*+=+:-+=+. +*+====*=-==-====:-:=</text>
-<text x="20" y="262.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="308" lengthAdjust="spacing">            *===*%    .*++++::%=+===+++=++==+++:--</text>
-<text x="20" y="274.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="314" lengthAdjust="spacing">            .+*+*#::+*-   :==*% ++++++***++++++-=+:</text>
-<text x="20" y="286.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="301" lengthAdjust="spacing">               *-%%%%#==*#%#**# ++++***+==++**+=+</text>
-<text x="20" y="298.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="301" lengthAdjust="spacing">                -%%@%%%*=. .%@% ++++**-..::=**=+.</text>
-<text x="20" y="310.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="289" lengthAdjust="spacing">               : %%%%%%+   %  % :+*++*:  :-+*++</text>
-<text x="20" y="322.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="289" lengthAdjust="spacing">                .*%%%%%=  *%   .++++*=. .:-+++.</text>
-<text x="20" y="334.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="283" lengthAdjust="spacing">                  %+%%*---  -+**+-=++*----+*+-</text>
-<text x="20" y="346.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="277" lengthAdjust="spacing">                  :**%*:.*.-*+***=====+=++*++</text>
-<text x="20" y="358.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="277" lengthAdjust="spacing">                  .:+++ ===-:***++==++++***=-</text>
-<text x="20" y="370.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="277" lengthAdjust="spacing">                   +-=:       +=-*+++*****=+.</text>
-<text x="20" y="382.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="264" lengthAdjust="spacing">                      =...   +***+=+***++==</text>
-<text x="20" y="394.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="264" lengthAdjust="spacing">                     .. :::.  .=****+++=---</text>
-<text x="20" y="406.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="271" lengthAdjust="spacing">                 .    .=:     .-+====-----::</text>
-<text x="20" y="418.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="271" lengthAdjust="spacing">                        :----------:::::::..</text>
-<text x="20" y="430.5" font-size="10.5" fill="#c9d1d9" xml:space="preserve" textLength="258" lengthAdjust="spacing">                           :::.:.:::::....</text>
-<text x="420" y="52" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#c9d1d9">- rishi@jayanath ---------------------------------------------</tspan></text>
-<text x="420" y="72" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. OS: </tspan><tspan fill="#616e7c">............................................. </tspan><tspan fill="#a5d6ff">Windows 11</tspan></text>
-<text x="420" y="92" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Host: </tspan><tspan fill="#616e7c">......... </tspan><tspan fill="#a5d6ff">Karunya Institute of Technology and Sciences</tspan></text>
-<text x="420" y="112" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. IDE: </tspan><tspan fill="#616e7c">............................................... </tspan><tspan fill="#a5d6ff">VS Code</tspan></text>
-<text x="420" y="152" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Languages.Programming: </tspan><tspan fill="#616e7c">...... </tspan><tspan fill="#a5d6ff">Python, JavaScript, TypeScript</tspan></text>
-<text x="420" y="172" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Languages.Computer: </tspan><tspan fill="#616e7c">.............................. </tspan><tspan fill="#a5d6ff">HTML, CSS</tspan></text>
-<text x="420" y="212" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Interests.Research: </tspan><tspan fill="#616e7c">.... </tspan><tspan fill="#a5d6ff">Medical AI, Fairness in ML, LLM/RAG</tspan></text>
-<text x="420" y="232" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Interests.Building: </tspan><tspan fill="#616e7c">......... </tspan><tspan fill="#a5d6ff">Applied ML, LLM apps, Web apps</tspan></text>
-<text x="420" y="272" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#c9d1d9">- Contact ----------------------------------------------------</tspan></text>
-<text x="420" y="292" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#616e7c">................................ </tspan><tspan fill="#a5d6ff">rishijayanath24-cpu</tspan></text>
-<text x="420" y="332" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#c9d1d9">- GitHub Stats -----------------------------------------------</tspan></text>
-<text x="420" y="352" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#616e7c">................. </tspan><tspan fill="#a5d6ff">35</tspan><tspan fill="#c9d1d9"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#616e7c">.................. </tspan><tspan fill="#a5d6ff">0</tspan></text>
-<text x="420" y="372" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#616e7c">.............. </tspan><tspan fill="#a5d6ff">230</tspan><tspan fill="#c9d1d9"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#616e7c">.............. </tspan><tspan fill="#a5d6ff">0</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="495.4" viewBox="0 0 985 495.4" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
+<rect width="985" height="495.4" rx="12" fill="#161b22"/>
+<text x="20" y="63.6" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="228" lengthAdjust="spacing">                     CJpwZw0Lw</text>
+<text x="20" y="78.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="274" lengthAdjust="spacing">                dwbZuf\/{1({{)ncxnUw</text>
+<text x="20" y="92.8" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="289" lengthAdjust="spacing">              0u\rr(tt||\|(\\1[[[[[}rC</text>
+<text x="20" y="107.4" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="319" lengthAdjust="spacing">              xxr/t//)\ff1}(1(1)({1)}[\xcL</text>
+<text x="20" y="122.0" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="319" lengthAdjust="spacing">             Urrxrfr\\\/\tt|}\\1{[{1}1}1/\</text>
+<text x="20" y="136.6" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="342" lengthAdjust="spacing">           bUxxxtj1rjjt|(/()11{}}}})11}{|1fnC</text>
+<text x="20" y="151.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="342" lengthAdjust="spacing">           Ourjxj|(xff/(1|\{(\/(}|/\11}}\{/jv</text>
+<text x="20" y="165.8" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="342" lengthAdjust="spacing">           xjnf/rx/rnrj//tfjuczvf((({1}}}}trX</text>
+<text x="20" y="180.4" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="334" lengthAdjust="spacing">           ctjxnjjtxufn(tnncUCJXnf|)\\1{[11u</text>
+<text x="20" y="195.0" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="334" lengthAdjust="spacing">           q}tnnfXpCQ0nvYQZwpdq0Ycr1/(|(1\}z</text>
+<text x="20" y="209.6" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="327" lengthAdjust="spacing">            Otjfr*kw0YucCpbdq0Xuxnfff|(1(}f</text>
+<text x="20" y="224.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="319" lengthAdjust="spacing">            Wpj(n8MddXnzUqodYvnvzxxuuuf(1n</text>
+<text x="20" y="238.79999999999998" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="312" lengthAdjust="spacing">              QrCB*koqYCOk&amp;azvuzUvXuvJv\j</text>
+<text x="20" y="253.4" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="312" lengthAdjust="spacing">               bw%&amp;8&amp;WM#&amp;W&amp;oYzYJQmO0LLzxm</text>
+<text x="20" y="268.0" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="312" lengthAdjust="spacing">                 %%%%&amp;&amp;W#&amp;%*mXY0wppqm0vZa</text>
+<text x="20" y="282.6" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="296" lengthAdjust="spacing">                 &amp;%%%8#kMM#MmLCLpbdqZCO</text>
+<text x="20" y="297.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="289" lengthAdjust="spacing">                  888&amp;##WhdqznYOqpqm0Q</text>
+<text x="20" y="311.8" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="281" lengthAdjust="spacing">                  M&amp;&amp;&amp;apbwZLCnvcJwmZY</text>
+<text x="20" y="326.4" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="281" lengthAdjust="spacing">                    &amp;WhbkkpmOYzYLZOUU</text>
+<text x="20" y="341.0" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="274" lengthAdjust="spacing">                    #W##*hqOwwmOOQUc</text>
+<text x="20" y="355.59999999999997" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="274" lengthAdjust="spacing">                     boMM*hpmZZQYccX</text>
+<text x="20" y="370.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="281" lengthAdjust="spacing">               W80#o*hqpdqm0JUXcvzJXO</text>
+<text x="20" y="384.8" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="319" lengthAdjust="spacing">           8@@BB#nB*#*okwUcvvccXCQQconwW#*</text>
+<text x="20" y="399.4" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="388" lengthAdjust="spacing">aaa*MMW%B@8BWmC0Or#%oM*ookpZ0Q0mOOcho(YwkW%WM*kwOOO</text>
+<text x="20" y="414.0" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="418" lengthAdjust="spacing">&amp;%B@$%@@kXUOJCOLCvn$hoMaahbpqpdqZcb&amp;}uYczQOJOdM%&amp;odOQQQ</text>
+<text x="20" y="428.59999999999997" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="418" lengthAdjust="spacing"> hqphhbmYuUCJCCbaWLB$qhMahkkhakOC#o1q**ZYJXLCCULh%@B*hk</text>
+<text x="20" y="443.2" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="426" lengthAdjust="spacing"> CLYJJXUzmbb#&amp;%$8$@%$$dkaaa#WMkh@hto@@$*YJJYLJCLzzwbB@B%</text>
+<text x="20" y="457.8" font-size="13" fill="#c9d1d9" xml:space="preserve" textLength="426" lengthAdjust="spacing"> bYXJwoqq@B$$@@$W@B%@$@QphoMWM8$BO%$8B$Wa#ohqkd0CzX8@888</text>
+<text x="460" y="52" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#c9d1d9">- rishi@jayanath -----------------------------------------</tspan></text>
+<text x="460" y="72" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. OS: </tspan><tspan fill="#616e7c">......................................... </tspan><tspan fill="#a5d6ff">Windows 11</tspan></text>
+<text x="460" y="92" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Host: </tspan><tspan fill="#616e7c">..... </tspan><tspan fill="#a5d6ff">Karunya Institute of Technology and Sciences</tspan></text>
+<text x="460" y="112" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. IDE: </tspan><tspan fill="#616e7c">........................................... </tspan><tspan fill="#a5d6ff">VS Code</tspan></text>
+<text x="460" y="152" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Languages.Programming: </tspan><tspan fill="#616e7c">.. </tspan><tspan fill="#a5d6ff">Python, JavaScript, TypeScript</tspan></text>
+<text x="460" y="172" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Languages.Computer: </tspan><tspan fill="#616e7c">.......................... </tspan><tspan fill="#a5d6ff">HTML, CSS</tspan></text>
+<text x="460" y="212" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Interests.Research: </tspan><tspan fill="#616e7c">.. </tspan><tspan fill="#a5d6ff">Medical AI, Fairness in ML, LLM/RAG</tspan></text>
+<text x="460" y="232" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Interests.Building: </tspan><tspan fill="#616e7c">..... </tspan><tspan fill="#a5d6ff">Applied ML, LLM apps, Web apps</tspan></text>
+<text x="460" y="272" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#c9d1d9">- Contact ------------------------------------------------</tspan></text>
+<text x="460" y="292" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. GitHub: </tspan><tspan fill="#616e7c">............................ </tspan><tspan fill="#a5d6ff">rishijayanath24-cpu</tspan></text>
+<text x="460" y="332" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#c9d1d9">- GitHub Stats -------------------------------------------</tspan></text>
+<text x="460" y="352" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Repos: </tspan><tspan fill="#616e7c">............... </tspan><tspan fill="#a5d6ff">35</tspan><tspan fill="#c9d1d9"> | </tspan><tspan fill="#ffa657">. Stars: </tspan><tspan fill="#616e7c">................ </tspan><tspan fill="#a5d6ff">0</tspan></text>
+<text x="460" y="372" font-size="16" xml:space="preserve" textLength="516" lengthAdjust="spacing"><tspan fill="#ffa657">. Commits: </tspan><tspan fill="#616e7c">............ </tspan><tspan fill="#a5d6ff">230</tspan><tspan fill="#c9d1d9"> | </tspan><tspan fill="#ffa657">. Followers: </tspan><tspan fill="#616e7c">............ </tspan><tspan fill="#a5d6ff">0</tspan></text>
 </svg>
