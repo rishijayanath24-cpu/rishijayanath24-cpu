@@ -8,7 +8,7 @@ USER = "rishijayanath24-cpu"
 HANDLE = "rishi@jayanath"
 
 WIDTH = 985
-ART_X, ART_FONT, ART_LINE_H, ART_CHAR_W = 24, 14, 16, 8.4
+ART_X, ART_FONT, ART_LINE_H, ART_CHAR_W = 20, 12, 13.5, 7.0
 INFO_X, INFO_FONT, INFO_LINE_H, INFO_CHARS, INFO_CHAR_W = 420, 16, 20, 62, 8.9
 TOP = 36
 
@@ -155,12 +155,16 @@ def build(name, theme, art, lines):
         f.write(svg)
 
 
+def load_art(name):
+    with open(os.path.join("assets", name), encoding="utf-8") as f:
+        return f.read().rstrip("\n").split("\n")
+
+
 def main():
-    with open(os.path.join("assets", "ascii.txt"), encoding="utf-8") as f:
-        art = f.read().rstrip("\n").split("\n")
+    arts = {"dark": load_art("ascii.txt"), "light": load_art("ascii-light.txt")}
     lines = info_lines(fetch_stats())
     for name, theme in THEMES.items():
-        build(name, theme, art, lines)
+        build(name, theme, arts[name], lines)
 
 
 if __name__ == "__main__":

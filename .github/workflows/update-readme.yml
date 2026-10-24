@@ -9,6 +9,7 @@ on:
       - scripts/update_readme.py
       - scripts/build_card.py
       - assets/ascii.txt
+      - assets/ascii-light.txt
 
 permissions:
   contents: write
