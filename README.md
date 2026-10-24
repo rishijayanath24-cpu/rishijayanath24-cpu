@@ -20,6 +20,31 @@ My research interests are medical AI, explainable vision models, fairness-aware 
 
 **[adni_project](https://github.com/rishijayanath24-cpu/adni_project)**: Fairness- and horizon-audited sequential modality acquisition for Alzheimer's risk stratification, using real ADNI data (1,566 MCI-at-baseline subjects, October 2026 release). Published acquisition policies do no better than random acquisition at the same cost, while SPFA (signature MRI features plus pooled training) beats cost-matched random using MRI alone, at about a tenth of the cost of all four modalities. Python.
 
+The four acquisition blocks it chooses between, with what each costs and adds:
+
+<p>
+<a href="https://github.com/rishijayanath24-cpu/adni_project#the-four-acquisition-blocks"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-mri-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-mri-light.svg">
+  <img alt="MRI card, cost 1.0: animated coronal scan with hippocampus and ventricles segmented; AUC gain +0.056, +0.034, +0.050 at 12, 24, 36 months" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-mri-dark.svg" width="49%">
+</picture></a>
+<a href="https://github.com/rishijayanath24-cpu/adni_project#the-four-acquisition-blocks"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-fdg-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-fdg-light.svg">
+  <img alt="FDG-PET card, cost 2.0: animated tracer uptake with a reduced-uptake pattern; AUC gain +0.039, +0.032, +0.058" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-fdg-dark.svg" width="49%">
+</picture></a>
+<a href="https://github.com/rishijayanath24-cpu/adni_project#the-four-acquisition-blocks"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-amyloid-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-amyloid-light.svg">
+  <img alt="Amyloid-PET card, cost 5.0: animated plaque build-up and summary SUVR passing a cutoff; AUC gain +0.003, +0.035, +0.051" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-amyloid-dark.svg" width="49%">
+</picture></a>
+<a href="https://github.com/rishijayanath24-cpu/adni_project#the-four-acquisition-blocks"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-csf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-csf-light.svg">
+  <img alt="CSF card, cost 1.5: animated lumbar puncture filling a sample tube, with Aβ42, total tau and p-tau; AUC gain +0.012, +0.024, +0.056" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/modality-csf-dark.svg" width="49%">
+</picture></a>
+</p>
+
 <a href="https://github.com/rishijayanath24-cpu/fungi">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/fungi/raw/main/assets/hero-dark.svg">
