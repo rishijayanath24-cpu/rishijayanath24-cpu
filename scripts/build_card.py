@@ -1,6 +1,8 @@
 """Build the profile card (dark and light SVGs) with live GitHub stats."""
+import http.client
 import json
 import os
+import time
 import urllib.request
 from xml.sax.saxutils import escape
 
@@ -8,7 +10,7 @@ USER = "rishijayanath24-cpu"
 HANDLE = "rishi@jayanath"
 
 WIDTH = 985
-ART_X, ART_FONT, ART_LINE_H, ART_CHAR_W = 20, 12, 13.5, 7.0
+ART_X, ART_FONT, ART_LINE_H, ART_CHAR_W = 20, 10.5, 12.0, 6.15
 INFO_X, INFO_FONT, INFO_LINE_H, INFO_CHARS, INFO_CHAR_W = 420, 16, 20, 62, 8.9
 TOP = 36
 
@@ -44,8 +46,14 @@ def request(url, data=None):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, data=data, headers=headers)
-    with urllib.request.urlopen(req) as resp:
-        return json.load(resp)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return json.load(resp)
+        except (OSError, http.client.HTTPException):
+            if attempt == 2:
+                raise
+            time.sleep(2)
 
 
 def fetch_stats():

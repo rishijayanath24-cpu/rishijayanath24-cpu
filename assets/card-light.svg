@@ -1,34 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="463.5" viewBox="0 0 985 463.5" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
-<rect width="985" height="463.5" rx="12" fill="#f6f8fa"/>
-<text x="20" y="48.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="252" lengthAdjust="spacing">                  .:::----------::..</text>
-<text x="20" y="61.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="266" lengthAdjust="spacing">               ..:--==++++++++++==-::.</text>
-<text x="20" y="75.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="280" lengthAdjust="spacing">             ..:-=++***########***+==-:.</text>
-<text x="20" y="88.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="294" lengthAdjust="spacing">            .:--=+**#%##%%%%%%%%%%#*+==-:.</text>
-<text x="20" y="102.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="301" lengthAdjust="spacing">           :-=++**#%%%%%%%%%%%@%%%%##*+=-:.</text>
-<text x="20" y="115.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">         .:-=+*+###%%%%#%%%###%%%%%%%%#*+-:.</text>
-<text x="20" y="129.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">        .:-==*#**#*#%%%###*****#%%%%%%%#*+=:.</text>
-<text x="20" y="142.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="322" lengthAdjust="spacing">        .:=++#%#*##*###*#***++*#%%%%%%%%#*+-:.</text>
-<text x="20" y="156.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">       .:-=+%*#*+*+*%%**+++==++*###%%#%%%#*=-</text>
-<text x="20" y="169.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">       :--+**::--.=*=------::-==++*%#%%%%%*+=</text>
-<text x="20" y="183.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">       :==+%- -===++++=-:---=+*#######%%%%#*-</text>
-<text x="20" y="196.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">        -+*@. .::-=++==-:-==+**+++#*+**#%%#-</text>
-<text x="20" y="210.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="301" lengthAdjust="spacing">        .=#%  :=::##=*-: .++***-+%+##*++%%+</text>
-<text x="20" y="223.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">       .:-*+  ....:-=::.  =++*++===+++==#%*..</text>
-<text x="20" y="237.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="294" lengthAdjust="spacing">      ..:::=      ..      =+============#*</text>
-<text x="20" y="250.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">      ...-::.        ..   -++=---------=#: .</text>
-<text x="20" y="264.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="329" lengthAdjust="spacing">       .:-+        .:-    .--=+--::----==-=--:.</text>
-<text x="20" y="277.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="322" lengthAdjust="spacing">       ...-=- .    .:. -:.:==-=--::---=-:-::..</text>
-<text x="20" y="291.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">       .  -+#. .  ..   .:-+**=--------=:::...</text>
-<text x="20" y="304.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">            .:......:::-:=-=*+++------*#*+-:.</text>
-<text x="20" y="318.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="322" lengthAdjust="spacing">             .:....:-:::---==+++=----+*+++=-:.</text>
-<text x="20" y="331.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="315" lengthAdjust="spacing">              ::.........:::-==-----+*++=-::.</text>
-<text x="20" y="345.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">            ...::......:-=--:::--==+*===-::.</text>
-<text x="20" y="358.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="301" lengthAdjust="spacing">             ...:::......:------=++++=--::.</text>
-<text x="20" y="372.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="294" lengthAdjust="spacing">             . ..:--.....:-----=+++==-::..</text>
-<text x="20" y="385.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="273" lengthAdjust="spacing">             . ....:--=====+=+++=----.:</text>
-<text x="20" y="399.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="273" lengthAdjust="spacing">                    .::-=+===---::::. :</text>
-<text x="20" y="412.5" font-size="12" fill="#24292f" xml:space="preserve" textLength="252" lengthAdjust="spacing">                      ...:::::......</text>
-<text x="20" y="426.0" font-size="12" fill="#24292f" xml:space="preserve" textLength="245" lengthAdjust="spacing">                         .....    .</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="468.0" viewBox="0 0 985 468.0" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace">
+<rect width="985" height="468.0" rx="12" fill="#f6f8fa"/>
+<text x="20" y="58.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="203" lengthAdjust="spacing">                       ..      ..</text>
+<text x="20" y="70.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="246" lengthAdjust="spacing">                     :-===++*+****=:..::</text>
+<text x="20" y="82.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="271" lengthAdjust="spacing">                ...:==++*##%######%%####*=:.</text>
+<text x="20" y="94.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="283" lengthAdjust="spacing">             .:-=-=*+**#%###%####%%%%%%%%%#*=.</text>
+<text x="20" y="106.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="314" lengthAdjust="spacing">            .::-=+*###%##**#%%%#%%%%%%%%%%%#%#+=:..</text>
+<text x="20" y="118.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="320" lengthAdjust="spacing">            .--=+**#*%%####%###%%%#%%%%%%#%%%%#*+-=.</text>
+<text x="20" y="130.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="320" lengthAdjust="spacing">           :-==++##**###########%%##%%%%%%%%%%%#*++:</text>
+<text x="20" y="142.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="338" lengthAdjust="spacing">          .-==+#**%*+***##%###%%%%%%%%%%%@%%%#%%%**+-:.</text>
+<text x="20" y="154.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="338" lengthAdjust="spacing">         .:===+**#%**#*##%%%##%%%%%%%%%%%##%#%%%%#**+--</text>
+<text x="20" y="166.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="344" lengthAdjust="spacing">         :-=***##%%*+*#*##%##*%%#****#%###%%%%%%%#%*=-:.</text>
+<text x="20" y="178.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="344" lengthAdjust="spacing">        --==*##*+*##++++*##%#*#++====+*%%#%%%%%%%%%#*=-.</text>
+<text x="20" y="190.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="338" lengthAdjust="spacing">        :==+*+****#*++#**#**++*=-----+**%#####%%%%%%#=.</text>
+<text x="20" y="202.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="332" lengthAdjust="spacing">        .++#+*+*%++*==+=+%#*+=--::::--++*#%#*#%#%%%##=</text>
+<text x="20" y="214.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="332" lengthAdjust="spacing">         =**+***+. .:..=*-::........::--=###%%##%%%#%=</text>
+<text x="20" y="226.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="326" lengthAdjust="spacing">          +#***#: .-:-=+*+=:.....:-=+****#####%#%##%#</text>
+<text x="20" y="238.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="326" lengthAdjust="spacing">           =#*#%    ..:-==-::..::=++++==*+=+**#%%%%#:</text>
+<text x="20" y="250.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="314" lengthAdjust="spacing">            =*##   .-.=%*-+..  :-=+++:=#++#+==+%#%=</text>
+<text x="20" y="262.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="326" lengthAdjust="spacing">            .++=      .::--..  .=+++=--=--++=-=#*#. .</text>
+<text x="20" y="274.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="320" lengthAdjust="spacing">             .:-               .-===--:::------**- .</text>
+<text x="20" y="286.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="320" lengthAdjust="spacing">               :               .:=--::::::::::=+- ..</text>
+<text x="20" y="298.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="320" lengthAdjust="spacing">                                .:==::.....:::=-  ..</text>
+<text x="20" y="310.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="314" lengthAdjust="spacing">                         .      .-:--:.....::--  ..</text>
+<text x="20" y="322.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">                .            . .-=-:::....:::-  ..</text>
+<text x="20" y="334.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="308" lengthAdjust="spacing">                            ..::-**=-:...:::-: ...</text>
+<text x="20" y="346.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="295" lengthAdjust="spacing">                        .:..:.:::=+===-::::-- ..</text>
+<text x="20" y="358.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="289" lengthAdjust="spacing">                  .     .....:::-====-:::::+: .</text>
+<text x="20" y="370.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="271" lengthAdjust="spacing">                   .         ....:--::::::=-</text>
+<text x="20" y="382.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="264" lengthAdjust="spacing">                            ..::::.::::--==</text>
+<text x="20" y="394.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="264" lengthAdjust="spacing">                              ..::::::--=--</text>
+<text x="20" y="406.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="271" lengthAdjust="spacing">                       ..     ...::::---:::.</text>
+<text x="20" y="418.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="271" lengthAdjust="spacing">                         ...:::::::::::.....</text>
+<text x="20" y="430.5" font-size="10.5" fill="#24292f" xml:space="preserve" textLength="234" lengthAdjust="spacing">                           ...::::....</text>
 <text x="420" y="52" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#24292f">- rishi@jayanath ---------------------------------------------</tspan></text>
 <text x="420" y="72" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#953800">. OS: </tspan><tspan fill="#a0aab4">............................................. </tspan><tspan fill="#0a3069">Windows 11</tspan></text>
 <text x="420" y="92" font-size="16" xml:space="preserve" textLength="552" lengthAdjust="spacing"><tspan fill="#953800">. Host: </tspan><tspan fill="#a0aab4">......... </tspan><tspan fill="#0a3069">Karunya Institute of Technology and Sciences</tspan></text>

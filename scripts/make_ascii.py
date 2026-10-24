@@ -32,6 +32,13 @@ def convert(path, cols, rows, box=None, mode="tone", invert=False):
         img = ImageEnhance.Contrast(img).enhance(1.4)
     img = img.resize((cols, rows), Image.LANCZOS)
     bg = img.getpixel((0, 0))
+    # Smooth backdrop estimate: interpolate the left and right edge brightness
+    # across each row (rows near the bottom reuse an upper row, where the
+    # shoulders would otherwise reach the edge).
+    edge = lambda y, xs: sum(img.getpixel((x, y))[0] for x in xs) / (len(xs) * 255)
+    left = [edge(y, (0, 1)) for y in range(rows)]
+    right = [edge(y, (cols - 2, cols - 1)) for y in range(rows)]
+    last = int(rows * 0.7)
     out = []
     for y in range(rows):
         line = ""
@@ -39,9 +46,15 @@ def convert(path, cols, rows, box=None, mode="tone", invert=False):
             px = img.getpixel((x, y))
             if mode == "tone":
                 nx, ny = (x + 0.5) / cols * 2 - 1, (y + 0.5) / rows * 2 - 1
-                fade = max(0.0, min(1.0, (1.1 - math.hypot((nx + 0.05) / 0.72, ny / 1.0)) / 0.3))
-                tone = 1 - px[0] / 255 if invert else px[0] / 255
-                level = tone ** (GAMMA_LIGHT if invert else GAMMA) * fade * (len(RAMP) - 1)
+                fade = max(0.0, min(1.0, (1.1 - math.hypot(nx / 0.8, ny / 1.0)) / 0.3))
+                v = px[0] / 255
+                if invert:
+                    level = (1 - v) ** GAMMA_LIGHT * fade * (len(RAMP) - 1)
+                else:
+                    yy = min(y, last)
+                    base = left[yy] + (right[yy] - left[yy]) * x / (cols - 1)
+                    subject = max(0.0, min(1.0, (abs(v - base) - 0.06) / 0.12))
+                    level = subject * (0.2 + 0.8 * v ** GAMMA) * fade * (len(RAMP) - 1)
             else:
                 dist = math.dist(px, bg) / math.dist((0, 0, 0), (255, 255, 255))
                 level = dist * 2.2 * (len(RAMP) - 1)
