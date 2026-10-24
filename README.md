@@ -18,6 +18,20 @@ My research interests are medical AI, explainable vision models, fairness-aware 
 
 The rest are on my [repositories tab](https://github.com/rishijayanath24-cpu?tab=repositories).
 
+## Recently active
+
+Updated daily from the GitHub API.
+
+<!-- recent:start -->
+| Repository | Language | Last push |
+|---|---|---|
+| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 10 days ago |
+| [gpt4_exp4](https://github.com/rishijayanath24-cpu/gpt4_exp4) | Python | 10 days ago |
+| [FLUTTER_10](https://github.com/rishijayanath24-cpu/FLUTTER_10) | - | 24 days ago |
+| [flutter_exp9](https://github.com/rishijayanath24-cpu/flutter_exp9) | - | 24 days ago |
+| [ADNI](https://github.com/rishijayanath24-cpu/ADNI) | Python | 29 days ago |
+<!-- recent:end -->
+
 ## Tools
 
 - Languages: Python, JavaScript, TypeScript, HTML, CSS
