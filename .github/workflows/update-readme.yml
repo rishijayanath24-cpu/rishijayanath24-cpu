@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - scripts/update_readme.py
+      - scripts/build_card.py
+      - assets/ascii.txt
 
 permissions:
   contents: write
@@ -19,16 +21,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/update_readme.py
+      - run: |
+          python scripts/update_readme.py
+          python scripts/build_card.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changes
         run: |
-          if git diff --quiet; then
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
             echo "No changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update recent activity"
+          git add -A
+          git commit -m "Update profile card and recent activity"
           git push

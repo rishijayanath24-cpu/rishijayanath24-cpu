@@ -1,6 +1,10 @@
-# Rishi Jayanath
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg">
+  <img alt="Rishi Jayanath: profile summary and GitHub stats" src="assets/card-dark.svg">
+</picture>
 
-Computer science student at Karunya Institute of Technology and Sciences. I work on applied machine learning, LLM applications, and web apps.
+I am a computer science student at Karunya Institute of Technology and Sciences. I work on applied machine learning, LLM applications, and web apps.
 
 My research interests are medical AI, explainable vision models, fairness-aware machine learning, and retrieval-augmented generation.
 
