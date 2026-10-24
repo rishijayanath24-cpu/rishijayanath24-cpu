@@ -14,11 +14,11 @@ My research interests are medical AI, explainable vision models, fairness-aware 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/hero-light.svg">
-  <img alt="Animated cost-accuracy chart: published acquisition policies vs an MRI-only model at the 24-month horizon" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/hero-dark.svg">
+  <img alt="Animated cost-accuracy chart at 24 months: published acquisition policies sit on the cost-matched random-acquisition curve, while SPFA with MRI only sits above it" src="https://github.com/rishijayanath24-cpu/adni_project/raw/master/assets/hero-dark.svg">
 </picture>
 </a>
 
-**[adni_project](https://github.com/rishijayanath24-cpu/adni_project)**: Fairness- and horizon-audited sequential modality acquisition for Alzheimer's risk stratification, using real ADNI data (1,622 MCI-at-baseline subjects). The main result is that no published acquisition policy beats a fixed or random rule, and that MRI-only input at cost 1.0 is not significantly worse than acquiring all four modalities at cost 9.5. Python.
+**[adni_project](https://github.com/rishijayanath24-cpu/adni_project)**: Fairness- and horizon-audited sequential modality acquisition for Alzheimer's risk stratification, using real ADNI data (1,566 MCI-at-baseline subjects, October 2026 release). Published acquisition policies do no better than random acquisition at the same cost, while SPFA (signature MRI features plus pooled training) beats cost-matched random using MRI alone, at about a tenth of the cost of all four modalities. Python.
 
 <a href="https://github.com/rishijayanath24-cpu/fungi">
 <picture>
