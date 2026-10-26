@@ -88,11 +88,11 @@ Updated daily from the GitHub API.
 <!-- recent:start -->
 | Repository | Language | Last push |
 |---|---|---|
-| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | today |
-| [fungi](https://github.com/rishijayanath24-cpu/fungi) | Python | today |
-| [Drone-site](https://github.com/rishijayanath24-cpu/Drone-site) | TypeScript | today |
-| [Radix-TMH](https://github.com/rishijayanath24-cpu/Radix-TMH) | JavaScript | today |
-| [gpt4_exp4](https://github.com/rishijayanath24-cpu/gpt4_exp4) | Python | 11 days ago |
+| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | yesterday |
+| [fungi](https://github.com/rishijayanath24-cpu/fungi) | Python | yesterday |
+| [Drone-site](https://github.com/rishijayanath24-cpu/Drone-site) | TypeScript | yesterday |
+| [Radix-TMH](https://github.com/rishijayanath24-cpu/Radix-TMH) | JavaScript | yesterday |
+| [gpt4_exp4](https://github.com/rishijayanath24-cpu/gpt4_exp4) | Python | 12 days ago |
 <!-- recent:end -->
 
 ## Tools
