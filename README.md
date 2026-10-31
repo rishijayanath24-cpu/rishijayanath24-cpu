@@ -88,11 +88,11 @@ Updated daily from the GitHub API.
 <!-- recent:start -->
 | Repository | Language | Last push |
 |---|---|---|
-| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | today |
-| [FoveaRL](https://github.com/rishijayanath24-cpu/FoveaRL) | Python | today |
-| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 5 days ago |
-| [fungi](https://github.com/rishijayanath24-cpu/fungi) | Python | 5 days ago |
-| [Drone-site](https://github.com/rishijayanath24-cpu/Drone-site) | TypeScript | 5 days ago |
+| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | yesterday |
+| [FoveaRL](https://github.com/rishijayanath24-cpu/FoveaRL) | Python | yesterday |
+| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 6 days ago |
+| [fungi](https://github.com/rishijayanath24-cpu/fungi) | Python | 6 days ago |
+| [Drone-site](https://github.com/rishijayanath24-cpu/Drone-site) | TypeScript | 6 days ago |
 <!-- recent:end -->
 
 ## Tools
