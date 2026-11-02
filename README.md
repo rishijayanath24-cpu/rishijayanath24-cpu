@@ -88,11 +88,11 @@ Updated daily from the GitHub API.
 <!-- recent:start -->
 | Repository | Language | Last push |
 |---|---|---|
-| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | today |
-| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | today |
-| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | 2 days ago |
-| [FoveaRL](https://github.com/rishijayanath24-cpu/FoveaRL) | Python | 2 days ago |
-| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 7 days ago |
+| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | yesterday |
+| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | yesterday |
+| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | 4 days ago |
+| [FoveaRL](https://github.com/rishijayanath24-cpu/FoveaRL) | Python | 4 days ago |
+| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 8 days ago |
 <!-- recent:end -->
 
 ## Tools
