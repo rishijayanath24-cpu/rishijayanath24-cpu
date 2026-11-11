@@ -89,8 +89,8 @@ Updated daily from the GitHub API.
 | Repository | Language | Last push |
 |---|---|---|
 | [medical-symptom-assistant](https://github.com/rishijayanath24-cpu/medical-symptom-assistant) | Python | 7 days ago |
-| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | 9 days ago |
-| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | 9 days ago |
+| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | 10 days ago |
+| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | 10 days ago |
 | [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | 12 days ago |
 | [FoveaRL](https://github.com/rishijayanath24-cpu/FoveaRL) | Python | 12 days ago |
 <!-- recent:end -->
