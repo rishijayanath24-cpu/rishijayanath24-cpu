@@ -88,11 +88,11 @@ Updated daily from the GitHub API.
 <!-- recent:start -->
 | Repository | Language | Last push |
 |---|---|---|
-| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 10 days ago |
-| [medical-symptom-assistant](https://github.com/rishijayanath24-cpu/medical-symptom-assistant) | Python | 18 days ago |
-| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | 21 days ago |
-| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | 21 days ago |
-| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | 24 days ago |
+| [adni_project](https://github.com/rishijayanath24-cpu/adni_project) | Python | 11 days ago |
+| [medical-symptom-assistant](https://github.com/rishijayanath24-cpu/medical-symptom-assistant) | Python | 20 days ago |
+| [legal-document-analyzer](https://github.com/rishijayanath24-cpu/legal-document-analyzer) | Python | 22 days ago |
+| [email-assistant-ollama](https://github.com/rishijayanath24-cpu/email-assistant-ollama) | Python | 22 days ago |
+| [customer-feedback-rpa](https://github.com/rishijayanath24-cpu/customer-feedback-rpa) | Python | 25 days ago |
 <!-- recent:end -->
 
 ## Tools
